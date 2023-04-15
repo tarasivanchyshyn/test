@@ -1,0 +1,62 @@
+@import '../../variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .productCard {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem 0 2rem;
+
+    .info {
+      padding: 1rem;
+
+      .infoHeader {
+        font-size: 2rem;
+        color: $color-main;
+      }
+    }
+  }
+
+  .comments {
+    width: 60%;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .commentsHeader {
+      color: $color-main;
+    }
+
+    .comment {
+      width: 100%;
+      display: flex;
+      padding: 1rem;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid lightgray;
+      border-radius: 12px;
+      margin-bottom: 0.5rem;
+    }
+
+    .commentText {
+      margin-bottom: 0.5rem;
+      overflow-wrap: break-word;
+    }
+
+    .commentDate {
+      color: gray;
+      align-self: flex-end;
+    }
+  }
+}
+
+.infoHeader,
+.infoListItem,
+.commentsHeader {
+  margin-bottom: 1rem;
+}

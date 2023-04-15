@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0783/7359/products/Merlot-Veneto_grande.jpg?v=1621524899",
+      "name": "Wine",
+      "count": 34,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "0.7kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 1,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://produits.bienmanger.com/5783-0w600h600_Sagres_Blond_Portuguese_Beer.jpg",
+      "name": "Beer",
+      "count": 20,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "0.5kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://products3.imgix.drizly.com/ci-jose-cuervo-especial-silver-tequila-9e203052a133aec2.png?auto=format%2Ccompress&ch=Width%2CDPR&fm=jpg&q=20",
+      "name": "Tequila",
+      "count": 15,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "0.7kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1651588722-ci-captain-morgan-original-spiced-rum-50b42d45bcd74a31.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "name": "Rum",
+      "count": 8,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "1kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 4,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_7228b87d-619d-4e70-a12b-5284a7b71b4f",
+      "name": "Whiskey",
+      "count": 13,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "0.7kg",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 5,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        },
+        {
+          "id": 2,
+          "productId": 5,
+          "description": "some text here",
+          "date": "14:00 22.08.2021"
+        }
+      ]
+    }
+  ]
+}
