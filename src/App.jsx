@@ -29,7 +29,12 @@ function App() {
         index
         element={<ProductList items={products} fetchProducts={fetchProducts} />}
       />
-      <Route path={productURL} element={<ProductView products={products} />} />
+      <Route
+        path={productURL}
+        element={
+          <ProductView products={products} fetchProducts={fetchProducts} />
+        }
+      />
     </Routes>
   );
 }

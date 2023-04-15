@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import Button from '../Button/Button';
-import classes from './CreateModal.module.scss';
+import Button from '../../Button/Button';
+import classes from '../InputModal.module.scss';
 
-function Modal({ onClose, fetchProducts, onCreate }) {
+function Modal({ onClose, onCreate }) {
   const [imageUrl, setImageUrl] = useState('');
   const [name, setName] = useState('');
   const [count, setCount] = useState(0);

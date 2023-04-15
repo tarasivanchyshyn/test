@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import CreateModal from '../../components/CreateModal/CreateModal';
-import ConfirmModal from '../../components/ConfirmModal/ConfirmModal';
+import CreateModal from '../../components/Modals/CreateModal/CreateModal';
+import ConfirmModal from '../../components/Modals/ConfirmModal/ConfirmModal';
 import ListItem from '../../components/ListItem/ListItem';
 import Button from '../../components/Button/Button';
 
@@ -63,7 +63,6 @@ function ProductList({ items, fetchProducts }) {
       {isCreateModalOpen ? (
         <CreateModal
           onClose={closeCreateModal}
-          fetchProducts={fetchProducts}
           onCreate={createProductHandler}
         />
       ) : (

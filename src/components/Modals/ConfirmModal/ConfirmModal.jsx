@@ -1,4 +1,4 @@
-import Button from '../Button/Button';
+import Button from '../../Button/Button';
 import classes from './ConfirmModal.module.scss';
 
 function ConfirmModal({ onClose, onDelete }) {
