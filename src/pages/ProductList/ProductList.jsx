@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import CreateModal from '../../components/CreateModal/CreateModal';
 import ConfirmModal from '../../components/ConfirmModal/ConfirmModal';
 import ListItem from '../../components/ListItem/ListItem';
+import Button from '../../components/Button/Button';
 
 import classes from './ProductsList.module.scss';
 
@@ -78,12 +79,9 @@ function ProductList({ items, fetchProducts }) {
       )}
       <div className={classes.container}>
         <h1 className={classes.header}>Products List</h1>
-        <button
-          className={classes.button}
-          onClick={() => setIsCreateModalOpen(true)}
-        >
+        <Button secondary onClick={() => setIsCreateModalOpen(true)}>
           Add product +
-        </button>
+        </Button>
         <ul className={classes.productsList}>
           {items.map((item) => (
             <ListItem

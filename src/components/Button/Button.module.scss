@@ -1,0 +1,31 @@
+@import '../../variables.scss';
+
+.buttonMain {
+  background-color: $color-main;
+  color: white;
+  border: 1px solid $color-main;
+
+  &:hover {
+    background-color: $color-main-dark;
+    border-color: $color-main-dark;
+  }
+}
+
+.buttonSecondary {
+  background-color: white;
+  color: $color-main;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $color-main;
+  }
+}
+
+.buttonMain,
+.buttonSecondary {
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  cursor: pointer;
+}

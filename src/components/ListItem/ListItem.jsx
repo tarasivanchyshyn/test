@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Button from '../Button/Button';
 import classes from './ListItem.module.scss';
 
 function ListItem({ item, onDelete }) {
@@ -8,15 +9,12 @@ function ListItem({ item, onDelete }) {
     <li className={classes.productListItem}>
       <h2 style={{ color: 'gray' }}>{item.name}</h2>
       <div className={classes.actions}>
-        <Link to={`/products/${item.id}`} className={classes.link}>
-          Show Details
+        <Link to={`/products/${item.id}`} style={{ border: 'none' }}>
+          <Button>Show Details</Button>
         </Link>
-        <button
-          className={classes.buttonDelete}
-          onClick={() => onDelete(item.id)}
-        >
+        <Button secondary onClick={() => onDelete(item.id)}>
           Delete
-        </button>
+        </Button>
       </div>
     </li>
   );

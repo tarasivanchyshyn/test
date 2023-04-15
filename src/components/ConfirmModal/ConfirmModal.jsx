@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import classes from './ConfirmModal.module.scss';
 
 function ConfirmModal({ onClose, onDelete }) {
@@ -6,16 +7,12 @@ function ConfirmModal({ onClose, onDelete }) {
       <div className={classes.modal}>
         <h2 className={classes.header}>Do you want to delete the product?</h2>
         <div className={classes.actions}>
-          <button type='button' className={classes.button} onClick={onDelete}>
+          <Button style={{ width: '4rem' }} onClick={onDelete}>
             Yes
-          </button>
-          <button
-            type='button'
-            className={classes.buttonCancel}
-            onClick={onClose}
-          >
+          </Button>
+          <Button style={{ width: '4rem' }} secondary onClick={onClose}>
             Cancel
-          </button>
+          </Button>
         </div>
       </div>
     </div>

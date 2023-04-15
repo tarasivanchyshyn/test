@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+
+import Button from '../Button/Button';
 import classes from './CreateModal.module.scss';
 
 function Modal({ onClose, fetchProducts, onCreate }) {
@@ -103,16 +105,10 @@ function Modal({ onClose, fetchProducts, onCreate }) {
             />
           </div>
           <div className={classes.actions}>
-            <button type='submit' className={classes.button}>
-              Create
-            </button>
-            <button
-              type='button'
-              className={classes.buttonCancel}
-              onClick={onClose}
-            >
+            <Button type='submit'>Create</Button>
+            <Button secondary onClick={onClose}>
               Cancel
-            </button>
+            </Button>
           </div>
         </form>
       </div>
